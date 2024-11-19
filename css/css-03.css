@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardcontainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+}
+.card{
+    width: 250px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.card>h2{
+    text-align: center;
+}
+.inputs{
+    height: 10px;
+    width:;
+    background-color: crimson;
+     border-bottom:3px solid green ;
+}
+input{
+    height: 23px;
+    width: 180;
+    border-radius: 5px;
+    margin-bottom:5px;
+    outline:none;
+}
+i{
+    font-weight: 800;
+    color:green;
+}
+.cheks{
+    width: 70%;
+}

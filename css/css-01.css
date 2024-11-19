@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+}
+.card{
+    height:500px;
+    width:300px;
+    background-color:blueviolet;
+    border-radius:10px;
+
+
+}
+.cardnavigation{
+    height:30px;
+    width: 100%;
+    background-color: rgb(190, 152, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10%
+}
+.profile{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.profileimg{
+    height: 150px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.card h1{
+    text-align: center;
+}
+.card h5{
+    text-align: center;
+}
+.social{
+    height:100px;
+    width: 100%;
+    background-color: darksalmon;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+.socialicon{
+        height:50%;
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: aqua;
+        gap:10px;
+    
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.count{
+    font-size: 20px;
+    margin-top: 10px;
+    height: ;
+    width: ;
+    border-radius: 10%;
+
+}

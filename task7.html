@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="box"><i class="ri-facebook-fill"></i></div>
+    <div class="box"><i class="ri-instagram-line"></i></div>
+    <div class="box"><i class="ri-youtube-fill"></i></div>
+    <div class="box"><i class="ri-linkedin-fill"></i></div>
+    <div class="box"><i class="ri-twitter-fill"></i></div>
+</body>
+<style>
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+     i{
+        color:blue;
+        position:relative;
+        font-size:30px;
+        z-index: 1;;
+    }
+    .box{
+        height: 60px;
+        width: 60px;
+        background-color: rgb(87, 87, 247);
+        border-radius: 50%;
+        position: relative;
+        transition: .2s linear;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box::after{
+        content: '';
+        height: 60px;
+        width: 60px;
+        background-color: rgb(198, 232, 253);
+        border-radius: 50%;
+        position: absolute;
+        transition:.3s linear;
+    }
+    .box:hover::after{
+        transform:scale(0);
+        /* color: white; */
+
+    }
+    .box:hover i{
+        color: white;
+    }
+</style>
+</html>

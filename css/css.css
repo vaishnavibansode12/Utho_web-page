@@ -1,0 +1,58 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+
+}
+.box{
+    height:70vh ;
+    width: 80vw ;
+    background-color:aqua;
+}
+.main-heading{
+    text-align:center;
+    text-transform:uppercase;
+    
+}
+.card{
+    height:300px;
+    width: 220px;
+    background-color:blue;
+    border-radius:35px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    backdrop-filter: blur(4px);
+}
+.card h1{
+    text-align: center;
+    text-align: center;
+}
+.card2{
+    height:350px;
+    width:220px ;
+    background-color: blueviolet;
+}
+.cardBox{
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 30px;
+}
+.cardheading{
+    height: ;
+    width: ;
+    display:flex;
+    justify-content: top;
+    align-items: center;
+}
+.cardheading h1{
+    font-size:1.6vh;
+    font-weight: 400;
+    color:#212121;
+}
+.price{
+    height: ;
+}
